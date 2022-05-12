@@ -6,7 +6,7 @@
 	<groupId>com.app.registration</groupId>
 	<artifactId>EmployeeRegistration</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>EmployeeRegistration</name>
 	<description>Employee Registration Project</description>
