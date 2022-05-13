@@ -19,7 +19,7 @@ public class EmployeeController {
 	@Autowired
 	private EmployeeService employeeService;
 	
-	@PostMapping("/submit")
+	@PostMapping("/add")
 	public String saveNewRegistration(@RequestBody Employee employee){
 		
 		String message =this.employeeService.saveEmployee(employee);
